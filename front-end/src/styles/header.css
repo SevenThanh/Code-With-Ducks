@@ -1,7 +1,7 @@
 #logo {
     display: flex;
     align-items: center;
-    font-weight: bold;
+    font-weight: 600;
 }
   
 #logo img {
@@ -26,7 +26,7 @@ nav ul {
 
 nav ul li {
     margin-right: 20px; 
-    font-weight: bold;
+    font-weight: 600;
     font-size: 20px;
 }
 
@@ -34,7 +34,7 @@ button {
     padding: 5px 10px;
     background-color: rgba(200, 71, 71, 1);
     color: white;
-    border: 5px solid;
+    border: 1px solid;
     cursor: pointer;
     font-size: 20px;
     margin-right: 5px; 
