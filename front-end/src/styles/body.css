@@ -1,0 +1,28 @@
+.home-page {
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Changed from flex-start to space-between */
+    padding: 20px; 
+    padding-right: 100px; /* Added padding to right for spacing */
+}
+
+.home-page h2 {
+    font-size: 50px; 
+}
+
+.content {
+    margin-right: 20px; 
+    font-weight: bold;
+}
+
+#mascot img {
+    height: 300px; /* Adjusted height for a larger image */
+    width: auto; /* Maintains aspect ratio */
+    flex-shrink: 0;
+}
+
+#school-name {
+    color: rgba(170, 12, 20, 1);
+    font-size: 60px; /* Ensures the font size of 'Stevens' stands out */
+}

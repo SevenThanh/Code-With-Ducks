@@ -1,0 +1,14 @@
+header {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px; 
+  background-color: white;
+  color: black;
+}
+
+body {
+  background-color: white;
+  font-family:'Times New Roman', Times, serif;
+}
