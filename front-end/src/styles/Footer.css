@@ -1,0 +1,63 @@
+#footer-title {
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+#footer-title h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
+#footer-title span {
+  font-size: 32px;
+  color: rgba(170, 12, 20, 1);
+  text-align: center;
+}
+
+#logos {
+  display: flex;
+  align-items: center;
+  animation: 20s linear 0s infinite scroll;
+}
+
+#logos > img {
+  padding: 0 50px;
+}
+
+#google {
+  height: 80px;
+}
+
+#apple {
+  height: 130px;
+}
+
+#microsoft {
+  height: 80px;
+}
+
+#meta {
+  height: 60px;
+}
+
+#nvdia {
+  height: 80px;
+}
+
+#amazon {
+  height: 70px;
+  transform: translateY(10px)
+}
+
+#oracle {
+  height: 52px;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0%)
+  }
+  to {
+    transform: translateX(-2925px)
+  }
+}
