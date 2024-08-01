@@ -1,45 +1,57 @@
-#logo {
-    display: flex;
-    align-items: center;
-    font-weight: 600;
-}
-  
-#logo img {
-    width: 100px;
+header {
+    position: fixed;
+    width: 100vw;
     height: 80px;
-    margin-right: 10px;
-}
-
-#logo h1 {
-    font-size: 24px;
-    margin: 0; 
-}
-
-.nav-container {
-    display: flex;
-    align-items: center; 
-}
-
-nav ul {
-    display: flex;
-}
-
-nav ul li {
-    margin-right: 20px; 
-    font-weight: 600;
-    font-size: 20px;
-}
-
-button {
-    padding: 5px 10px;
-    background-color: rgba(200, 71, 71, 1);
     color: white;
-    border: 1px solid;
-    cursor: pointer;
-    font-size: 20px;
-    margin-right: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-title {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+
+.link {
+    min-width: 90px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, .14);
+    padding: 2px;
+}
+
+@media only screen and (max-width: 1300px) {
+    header {
+        flex-direction: column;
+        height: 120px;
+    }
+
+    nav {
+        position: static;
+    }
+}
+
+/*
+button {
+padding: 5px 10px;
+background-color: rgba(200, 71, 71, 1);
+color: white;
+border: 1px solid;
+cursor: pointer;
+font-size: 20px;
+margin-right: 5px;
 }
 
 button:hover {
-    opacity: 0.7;
+opacity: 0.7;
 }
+ */
