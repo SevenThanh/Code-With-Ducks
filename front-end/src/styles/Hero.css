@@ -1,4 +1,4 @@
-#wrapper {
+#hero-wrapper {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-main {
+#hero {
   color: white;
   height: 230px;
   width: 570px;
@@ -17,12 +17,12 @@ main {
   text-align: center;
 }
 
-#title {
+#hero h1 {
   font-size: 4em;
   font-weight: 700;
 }
 
-p {
+#hero p {
   width: 440px;
   font-size: 1.5em;
   font-weight: 200;
@@ -30,7 +30,7 @@ p {
   margin-bottom: 15px;
 }
 
-button {
+#hero button {
   width: 233px;
   height: 47px;
   background-color: #a52439;
@@ -38,6 +38,6 @@ button {
   font-size: 1.5em;
 }
 
-button:hover {
+#hero button:hover {
   opacity: 0.7;
 }
