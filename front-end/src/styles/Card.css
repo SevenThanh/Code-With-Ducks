@@ -1,0 +1,23 @@
+.card-wrapper {
+  width: 80%;
+  max-width: 900px;
+  margin-bottom: 100px;
+}
+
+.card-title {
+  font-size: 2em;
+  color: white;
+}
+
+.card-main {
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, .14);
+}
+
+.card-main img {
+  width: 100%;
+}
