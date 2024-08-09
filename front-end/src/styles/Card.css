@@ -9,6 +9,11 @@
   color: white;
 }
 
+.card-main p {
+  color: white;
+  font-size: 20px;
+}
+
 .card-main {
   padding: 10px 20px;
   display: grid;

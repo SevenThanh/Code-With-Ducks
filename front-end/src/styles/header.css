@@ -1,12 +1,12 @@
 header {
     position: fixed;
     width: 100vw;
-    height: 80px;
+    height: 80px; 
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: darkred;
+    background: #740808;
     z-index: 1;
 }
 
