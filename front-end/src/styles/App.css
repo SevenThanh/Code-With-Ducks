@@ -5,12 +5,17 @@ body {
 
 #info, #about-us {
   width: 100vw;
-  height: 100vh;
   padding: 150px 70px 50px;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto auto;
   gap: 100px;
+}
+#info {
   margin-bottom: 100px;
+}
+
+#about-us {
+  margin-top: 80px;
 }
 
 .App {

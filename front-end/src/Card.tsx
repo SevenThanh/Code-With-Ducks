@@ -1,21 +1,14 @@
-import placeholder from "./assets/placeholder.svg"
-import "./styles/Card.css"
+import placeholder from "./assets/placeholder.svg";
+import "./styles/Card.css";
 
-export function Card({ title, text, img="", right=false }) {
-    let image
-    try {
-        image = require(img)
-    } catch (error) {
-        image = placeholder
-    }
-
+export function Card({ title, text, img = placeholder, right = false }) {
     return (
         <div className={`card-wrapper${right ? " right" : ""}`}>
             <h1 className="card-title">{title}</h1>
             <main className="card-main">
-                <img src={image} alt="" />
+                <img src={img} alt={title} />
                 <p>{text}</p>
             </main>
         </div>
-    )
+    );
 }
