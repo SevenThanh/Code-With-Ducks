@@ -17,7 +17,6 @@ function Footer() {
       </header>
       <div id="logos">
         <img id="google" src={google} alt="microsoft logo" />
-        <img id="apple" src={apple} alt="microsoft logo" />
         <img id="microsoft" src={microsoft} alt="microsoft logo" />
         <img id="meta" src={meta} alt="microsoft logo" />
         <img id="nvdia" src={nvdia} alt="microsoft logo" />

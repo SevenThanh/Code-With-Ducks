@@ -25,32 +25,32 @@
 }
 
 #google {
-  height: 80px;
+  height: 50px;
 }
 
 #apple {
-  height: 130px;
+  height: 50px;
 }
 
 #microsoft {
-  height: 80px;
+  height: 50px;
 }
 
 #meta {
-  height: 60px;
+  height: 50px;
 }
 
 #nvdia {
-  height: 80px;
+  height: 50px;
 }
 
 #amazon {
-  height: 70px;
+  height: 50px;
   transform: translateY(10px)
 }
 
 #oracle {
-  height: 52px;
+  height: 42px;
 }
 
 @keyframes scroll {

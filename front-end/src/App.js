@@ -9,6 +9,7 @@ import particleOptions from './assets/particles.json';
 import mlAiImage from './assets/Ml&AI.png';
 import aboutus from './assets/aboutus.png';
 import goals from './assets/goals.png';
+import Footer from './pages/Footer';
 
 function App() {
   const [init, setInit] = useState(false);
@@ -42,10 +43,10 @@ function App() {
         <Card title="About Us" text={thirdCard} img={aboutus} />
         <Card title="Goals" text={fourthCard} img={goals} right={true} />
       </section>
-        {/*
-        <Body />
+        
+        {/* <Body /> */}
         <Footer />
-        */}
+       
     </div>
   );
 }
