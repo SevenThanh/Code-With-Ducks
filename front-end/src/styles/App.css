@@ -3,19 +3,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#info, #about-us {
+#about-us {
   width: 100vw;
   padding: 150px 70px 50px;
   display: grid;
   grid-template-rows: auto auto;
   gap: 100px;
-}
-#info {
-  margin-bottom: 100px;
+  margin-top: 80px;
 }
 
-#about-us {
-  margin-top: 80px;
+#info {
+  margin-bottom: 300px;
 }
 
 .App {
