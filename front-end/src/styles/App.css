@@ -1,15 +1,47 @@
 body {
-  background-color: darkred;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 #about-us {
   width: 100vw;
-  padding: 150px 70px 50px;
+  /* padding: 150px 70px 50px; */
   display: grid;
   grid-template-rows: auto auto;
   gap: 100px;
   margin-top: 80px;
+  padding: 40px 70px;
+}
+
+#goals {
+  width: 100%;
+  padding: 60px 70px;
+}
+
+.goals-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  align-items: center;
+}
+
+.goals-box {
+  background-color: gray;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#about-us img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+
+#secondSection {
+  background-color: #f5f5f5;
+  width: 100%;
+  padding: 50px 0;
+  position: relative;
+  z-index: 2;
 }
 
 #info {
