@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './styles/App.css';
 import Header from './pages/Header';
-import { Hero } from './Hero.tsx';
-import { Card } from './Card.tsx';
+import { Hero } from './components/Hero.tsx';
+import { Card } from './components/Card.tsx';
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import particleOptions from './assets/particles.json';

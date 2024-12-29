@@ -1,5 +1,5 @@
-import aboutus from "./assets/aboutus.png";
-import "./styles/Card.css";
+import aboutus from "../assets/aboutus.png";  // Go up two levels to reach root
+import "../styles/Card.css";  
 
 
 export function Card({ title, text, img, right = false, isStatistics = false, aboutUs, goals = false}) {
@@ -26,7 +26,7 @@ export function Card({ title, text, img, right = false, isStatistics = false, ab
     }
     if (aboutUs) {
         return (
-            <div className="card-wrapper1">
+            <div className="about-us-wrapper">
                 <div className="about-us-container">
                 <h1 className="card-title1">About Us</h1>
                     <div className="about-us-content">
