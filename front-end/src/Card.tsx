@@ -1,8 +1,8 @@
-import placeholder from "./assets/placeholder.svg";
+import aboutus from "./assets/aboutus.png";
 import "./styles/Card.css";
 
 
-export function Card({ title, text, img = placeholder, right = false, isStatistics = false, aboutUs, goals = false}) {
+export function Card({ title, text, img, right = false, isStatistics = false, aboutUs, goals = false}) {
     if (isStatistics) {
         return (
             <div className="statistics-container">
@@ -29,13 +29,16 @@ export function Card({ title, text, img = placeholder, right = false, isStatisti
             <div className="card-wrapper1">
                 <h1 className="card-title1">About Us</h1>
                 <div className="about-us-container">
-                    <div className="about-us-box">
-                        <p>Founded and built by a dedicated and passionate team of Computer Science students from Stevens Institute of Technology, we are committed and driven by inspiring and enlightening the new generation of thinkers. Having experienced the feeling of wanting more than just the basics of Computer Science especially with the uprise of AI and Machine Learning applications, we are devoted to fueling that curiosity and introducing new topics to those who want to know more than basic.</p>
+                    <div className="about-us-content">
+                        <img src={aboutus} alt="About Us" className="about-us-image" />
+                        <div className="about-us-text">
+                            <p>Founded and built by a dedicated and passionate team of Computer Science students from Stevens Institute of Technology, we are committed and driven by inspiring and enlightening the new generation of thinkers. Having experienced the feeling of wanting more than just the basics of Computer Science especially with the uprise of AI and Machine Learning applications, we are devoted to fueling that curiosity and introducing new topics to those who want to know more than basic.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         );
-    };
+    }
 
     if (goals) {
         return (

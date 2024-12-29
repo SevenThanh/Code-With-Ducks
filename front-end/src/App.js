@@ -47,7 +47,7 @@ function App() {
             <Card title="About Us" aboutUs={true} />
           </section>
           <section id="goals">
-            <Card title="Goals" text={fourthCard} img={goals} right={true} />
+            
           </section>
         </section>
         {/* <Body /> */}
