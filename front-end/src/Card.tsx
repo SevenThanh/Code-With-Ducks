@@ -27,8 +27,8 @@ export function Card({ title, text, img, right = false, isStatistics = false, ab
     if (aboutUs) {
         return (
             <div className="card-wrapper1">
-                <h1 className="card-title1">About Us</h1>
                 <div className="about-us-container">
+                <h1 className="card-title1">About Us</h1>
                     <div className="about-us-content">
                         <img src={aboutus} alt="About Us" className="about-us-image" />
                         <div className="about-us-text">
