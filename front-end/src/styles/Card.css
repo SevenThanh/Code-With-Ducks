@@ -38,6 +38,7 @@
 .card-title {
   font-size: 2.5em;
   color: white;
+  padding: 20px;
 }
 
 .card-main p {
@@ -49,11 +50,16 @@
   height: 300px;
   padding: 20px 20px;
   display: grid;
-  grid-template-columns: 1.3fr 1.7fr;
+  grid-template-columns: 1.3fr 2fr;
   gap: 20px;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, .14);
   align-items: center;
+}
+
+.card-wrapper {  /* Add some padding on the sides */
+  max-width: 1800px;  /* Increase maximum width */
+  margin: 0 auto;  /* Center the card */
 }
 
 .card-main img {
