@@ -12,24 +12,6 @@ body {
   padding: 40px 70px;
 }
 
-#goals {
-  width: 100%;
-  padding: 60px 70px;
-}
-
-.goals-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  align-items: center;
-}
-
-.goals-box {
-  background-color: gray;
-  padding: 30px;
-  border-radius: 10px;
-}
-
 #secondSection {
   background-color: #f5f5f5;
   width: 100%;

@@ -5,16 +5,14 @@ import '../styles/body.css'
 
 function Body() {
   return (
-    <section className='home-page'>
-      <div className="content">
-        <h2>Learn to Code <br /> with <span id="school-name">Stevens</span></h2>
-        <h3>Join us today to learn how to code</h3>
-        <button className='button2'>Get Started</button>
+    <section className='goals'>
+      <h2 className="goals-title">Goals</h2>
+      <div className="goals-container">
+        {/* <img src={goals} alt="Goals" className="goals-image" /> */}
+        <div className="goals-text">
+          <p>At Code with Ducks, we aim to provide educational empowerment, increase STEM inclusivity, build community and networks, and create accessible learning opportunities to high school students</p>
+        </div>
       </div>
-      <div id="mascot">
-        <img src="/mascot.png" alt="Code with Ducks Mascot" />
-      </div>
-
     </section>
   );
 }

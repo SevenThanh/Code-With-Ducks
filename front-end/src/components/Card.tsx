@@ -40,25 +40,6 @@ export function Card({ title, text, img, right = false, isStatistics = false, ab
         );
     }
 
-    if (goals) {
-        return (
-            <div className="card-wrapper">
-                <h1 className="card-title">{title}</h1>
-                <div className="goals-container">
-                    <div className="goals-box">
-                        <p>At Code with Ducks, we aim to provide educational empowerment, increase STEM inclusivity, build community and networks, and create accessible learning opportunities to high school students</p>
-                    </div>
-                    <div className="goals-image">
-                        <img src={img} alt="Goals illustration" />
-                    </div>
-                    <div className="goals-box">
-                        <p>Created, taught, and led by Stevens students, we hope to give an insider's look of what it means to be a computer science student at Stevens.</p>
-                    </div>
-                </div>
-            </div>
-        );
-    }
-
     return (
         <div className={`card-wrapper${right ? " right" : ""}`}>
             <h1 className="card-title">{title}</h1>

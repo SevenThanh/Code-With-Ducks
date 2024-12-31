@@ -1,48 +1,5 @@
-.home-page {
-    background-color: rgb(240, 239, 239);
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-    padding: 10px; 
-}
-
-.home-page h2 {
-    font-size: 50px;
-    margin-bottom: 5px; 
-}
-
-.content {
-    margin: 70px 0px 10px 100px;
-    font-weight: 600; 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-#mascot img {
-    height: 495px; 
-    width: 481px;  
-    flex-shrink: 0;
-    margin-right: 140px;
-    margin-top: 30px;
-}
-
-#school-name {
-    color: rgba(170, 12, 20, 1);
-    font-size: 60px; 
-}
-
-.home-page h3 {
-    font-size: 22px; 
-    font-weight: lighter;
-    opacity: 0.5;
-}
-
-.button2 {    
-    padding: 10px 20px;
-    background-color: rgba(200, 71, 71, 1);
-    color: white;
-    cursor: pointer;
-    font-size: 20px;
-    margin-top: 25px;
+.goals-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #C41E3A
 }
