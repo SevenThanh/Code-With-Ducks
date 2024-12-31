@@ -57,9 +57,9 @@
   align-items: center;
 }
 
-.card-wrapper {  /* Add some padding on the sides */
-  max-width: 1800px;  /* Increase maximum width */
-  margin: 0 auto;  /* Center the card */
+.card-wrapper {  
+  max-width: 1800px;  
+  margin: 0 auto;  
 }
 
 .card-main img {
