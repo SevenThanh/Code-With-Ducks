@@ -6,7 +6,7 @@ export function Card({ title, text, img, right = false, isStatistics = false, ab
     if (isStatistics) {
         return (
             <div className="statistics-container">
-                <h1 className="card-title">{title}</h1>
+                <h1 className="card-title2">{title}</h1>
                 <div className="stats-grid">
                     <div className="stat-box">
                         <h2>1 Million</h2>
