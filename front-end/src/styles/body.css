@@ -1,16 +1,38 @@
 .goals-title {
     text-align: center;
     font-size: 2.5em;
-    color: #C41E3A
+    color: #C41E3A;
+}
+
+.goals-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    gap: 20px;
 }
 
 .goals-image {
     width: 100%;
+    max-width: 600px;
     height: auto;
     object-fit: cover;
-    border-radius: 15px;
-    max-width: 800px; 
-    position: relative;
-    left: 330px;
-    padding: 50px;
+}
+
+.goals-text-left, .goals-text-right {
+    background-color: rgba(238, 232, 232, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 400px;
+}
+
+.goals-text-left p, .goals-text-right p {
+    color: #C41E3A;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.goals {
+    padding-bottom: 100px;
 }

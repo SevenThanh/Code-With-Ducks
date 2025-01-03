@@ -24,6 +24,7 @@ export function Card({ title, text, img, right = false, isStatistics = false, ab
             </div>
         );
     }
+    
     if (aboutUs) {
         return (
             <div className="about-us-wrapper">
