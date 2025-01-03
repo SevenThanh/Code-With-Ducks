@@ -31,8 +31,9 @@
     color: #C41E3A;
     margin: 0;
     line-height: 1.5;
+    font-size: 22px;
 }
 
 .goals {
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
