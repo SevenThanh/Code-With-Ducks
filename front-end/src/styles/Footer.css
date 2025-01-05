@@ -28,10 +28,10 @@
   animation: 20s linear 0s infinite scroll;
   background-color: rgba(255, 255, 255, .14);
   padding: 40px 0;  
-  margin: 0;  /* Changed from margin: 0 -50px */
-  width: 300%;  /* Changed from calc(100% + 100px) - make it extra wide to ensure coverage */
-  position: relative; /* Add this */
-  left: -50%; /* Add this to center the extra width */
+  margin: 0; 
+  width: 300%;  
+  position: relative;
+  left: -50%; 
 }
 
 #logos > img {

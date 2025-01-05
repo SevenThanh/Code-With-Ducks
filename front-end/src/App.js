@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './styles/App.css';
-import Header from './pages/Header';
+import Header from './pages/Header.js';
 import { Hero } from './components/Hero.tsx';
 import { Card } from './components/Card.tsx';
 import Particles, { initParticlesEngine } from "@tsparticles/react";
@@ -9,7 +9,7 @@ import particleOptions from './assets/particles.json';
 import mlAiImage from './assets/Ml&AI.png';
 import aboutus from './assets/aboutus.png';
 import goals from './assets/goals.png';
-import Footer from './pages/Footer';
+import Footer from './pages/Footer.js';
 import Body from './pages/Body.js';
 
 
