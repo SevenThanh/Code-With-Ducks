@@ -1,6 +1,13 @@
+#footer-container {
+  padding: 60px 0;
+}
+
 #footer-title {
   flex-direction: column;
   margin: 0 auto;
+  display: flex; 
+  width: 100%;  
+  text-align: center;
 }
 
 #footer-title h2 {
@@ -14,12 +21,13 @@
   text-align: center;
 }
 
+
 #logos {
   display: flex;
   align-items: center;
   animation: 20s linear 0s infinite scroll;
-  padding: 60px 0;
 }
+
 
 #logos > img {
   padding: 0 50px;
