@@ -14,10 +14,10 @@ function Footer() {
   return (
     <footer>
       <section className='footer-container'>
-        <header id="footer-title">
-          <h2>Our Students</h2>
+        <div id="footer-title">
+          <h2>Our students</h2>
           <span>intern at</span>
-        </header>
+        </div>
         <div id="logos">
           <img id="google" src={google} alt="microsoft logo" />
           <img id="microsoft" src={microsoft} alt="microsoft logo" />
