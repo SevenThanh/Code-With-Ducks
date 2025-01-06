@@ -6,6 +6,7 @@ import meta from "../assets/meta.png"
 import nvdia from "../assets/nvdia.png"
 import amazon from "../assets/amazon.webp"
 import oracle from "../assets/oracle.png"
+import FAQ from '../components/FAQ';
 import '../styles/footer.css'
 
 
@@ -26,12 +27,14 @@ function Footer() {
           <img id="amazon" src={amazon} alt="microsoft logo" />
           <img id="oracle" src={oracle} alt="microsoft logo" />
           <img id="google" src={google} alt="microsoft logo" />
-          <img id="microsoft" src={microsoft} alt="microsoft logo" />
           <img id="meta" src={meta} alt="microsoft logo" />
           <img id="nvdia" src={nvdia} alt="microsoft logo" />
           <img id="amazon" src={amazon} alt="microsoft logo" />
-          <img id="oracle" src={oracle} alt="microsoft logo" />
         </div>
+      </section>
+      <section className='faq-container'>
+        <h2>FAQ</h2>
+        <FAQ/>
       </section>
      <p>© 2024 Code with Ducks. All rights reserved.</p>
     </footer>
