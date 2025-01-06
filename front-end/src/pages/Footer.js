@@ -33,7 +33,6 @@ function Footer() {
         </div>
       </section>
       <section className='faq-container'>
-        <h2>FAQ</h2>
         <FAQ/>
       </section>
      <p>© 2024 Code with Ducks. All rights reserved.</p>
