@@ -7,7 +7,7 @@ const FAQItem = ({ question, children }) => {
   return (
     <div className="mb-4">
       <button
-        className="w-full flex items-center justify-between p-4 text-white text-left hover:bg-red-950/30 transition-colors rounded-lg"
+        className="w-full flex items-center justify-between p-4 text-white text-left hover:bg-white/20 transition-colors rounded-lg"
         onClick={() => setIsOpen(!isOpen)}
       >
         <span className="text-xl">{question}</span>
@@ -17,7 +17,7 @@ const FAQItem = ({ question, children }) => {
         />
       </button>
       {isOpen && (
-        <div className="p-4 text-white bg-red-950/20 rounded-lg mt-2">
+        <div className="p-4 text-white bg-white/[0.14] rounded-lg mt-2">
           {children}
         </div>
       )}
@@ -27,7 +27,7 @@ const FAQItem = ({ question, children }) => {
 
 const FAQ = () => {
   return (
-    <div className="w-full max-w-4xl mx-auto p-6 bg-red-900/90 rounded-xl">
+    <div className="w-full max-w-4xl mx-auto p-6 bg-white/[0.14] rounded-xl">
       <h1 className="text-4xl font-bold text-white mb-8">FAQs</h1>
       
       <FAQItem question="How do I apply?">
@@ -47,16 +47,20 @@ const FAQ = () => {
         </div>
       </FAQItem>
 
-      <FAQItem question="Where will the program take place?">
+      <FAQItem question="Who can join the Code With Ducks program?">
         <p>
-          [Program location details would go here]
+          Any high school student can apply, especially those interested in learning about programming and AI.
         </p>
       </FAQItem>
 
-      <FAQItem question="What is the cost of the program, and are there any scholarships or financial aid available?">
+      <FAQItem question="How are the classes conducted?">
         <p>
-          [Program cost and financial aid information would go here]
+          A classroom remote link will be sent out to accepted students to join the sessions. Classes are held online, making it easy for students to participate from anywhere.
         </p>
+      </FAQItem>
+
+      <FAQItem question="Is the program free for students?">
+        <p>Yes! The program is completely free.</p>
       </FAQItem>
     </div>
   );
