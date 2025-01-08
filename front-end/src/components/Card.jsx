@@ -1,8 +1,7 @@
-import aboutus from "../assets/aboutus.png";  // Go up two levels to reach root
-import "../styles/Card.css";  
+import aboutus from "../assets/aboutus.png";
+import "../styles/Card.css";
 
-
-export function Card({ title, text, img, right = false, isStatistics = false, aboutUs, goals = false}) {
+export function Card({ title, text, img, right = false, isStatistics = false, aboutUs, goals = false }) {
     if (isStatistics) {
         return (
             <div className="statistics-container">
@@ -29,7 +28,7 @@ export function Card({ title, text, img, right = false, isStatistics = false, ab
         return (
             <div className="about-us-wrapper">
                 <div className="about-us-container">
-                <h1 className="card-title1">About Us</h1>
+                    <h1 className="card-title1">About Us</h1>
                     <div className="about-us-content">
                         <img src={aboutus} alt="About Us" className="about-us-image" />
                         <div className="about-us-text">
