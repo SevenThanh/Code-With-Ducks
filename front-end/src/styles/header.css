@@ -6,8 +6,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #740808;
-    z-index: 1;
+    background-color: rgb(113, 31, 34);
+    z-index: 3;
 }
 
 #header-title {
