@@ -6,7 +6,7 @@ import goals from '../assets/goals.png'
 
 function Body() {
   return (
-    <section className='goals'>
+    <section id="goals" className='goals'>
       <h2 className="goals-title">Goals</h2>
       <div className="goals-container">
         <div className="goals-text-left">
