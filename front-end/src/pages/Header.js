@@ -10,7 +10,7 @@ function Header() {
                 <div className="link">Info</div>
                 <div className="link">About Us</div>
                 <div className="link">Curriculum</div>
-                <div className="link">FAQ</div>
+                {/* <div className="link">FAQ</div> */}
             </nav>
         </header>
     );
