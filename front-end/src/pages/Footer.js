@@ -7,7 +7,7 @@ import nvdia from "../assets/nvdia.png"
 import amazon from "../assets/amazon.webp"
 import oracle from "../assets/oracle.png"
 import FAQ from '../components/FAQ';
-import '../styles/footer.css'
+import '../styles/Footer.css'
 
 
 

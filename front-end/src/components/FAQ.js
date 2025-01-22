@@ -12,6 +12,7 @@ const FAQItem = ({ question, children }) => {
       >
         <span className="text-xl">{question}</span>
         <ChevronDown 
+        
           className={`transform transition-transform ${isOpen ? 'rotate-180' : ''}`}
           size={24}
         />
